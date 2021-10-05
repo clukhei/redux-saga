@@ -9,3 +9,7 @@ function* fetchNews() {
 export function* actionWatcher(){
     yield takeLatest('GET_NEWS', fetchNews)
 }
+
+export default function* rootSaga(){
+    yield all([actionWatcher()])
+}
