@@ -5,7 +5,7 @@ import { actionWatcher } from '../sagas';
 import { useSelector, useDispatch } from 'react-redux'
 import { useInjectReducer, useInjectSaga } from 'redux-injectors'
 
-let NewsItem = () => {
+let AnimeItem = () => {
 	useInjectReducer({ key , reducer: newsReducer})
 	useInjectSaga({key, saga: actionWatcher})
 
@@ -21,7 +21,7 @@ let NewsItem = () => {
 	) : <>nothing</>;
 };
 
-export default NewsItem;
+export default AnimeItem;
 
 
 const imgStyle = {
