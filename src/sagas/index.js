@@ -1,4 +1,4 @@
-import { put, takeLatest, all } from 'redux-saga/effects';
+import { put, takeLatest } from 'redux-saga/effects';
 
 function* fetchNews() {
     const json = yield fetch('https://animechan.vercel.app/api/random')

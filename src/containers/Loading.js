@@ -2,7 +2,7 @@ import React from "react";
 import img from "../loading_spinner.gif";
 import newsReducer, { key } from '../reducers/newsReducer'
 import { actionWatcher } from '../sagas';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { useInjectReducer, useInjectSaga } from 'redux-injectors'
 
 const Loading = () => {

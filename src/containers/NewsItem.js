@@ -2,7 +2,7 @@ import React from "react";
 
 import newsReducer, { key } from '../reducers/newsReducer'
 import { actionWatcher } from '../sagas';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { useInjectReducer, useInjectSaga } from 'redux-injectors'
 
 let AnimeItem = () => {
@@ -24,12 +24,12 @@ let AnimeItem = () => {
 export default AnimeItem;
 
 
-const imgStyle = {
-	hight: "auto",
-	width: "80%",
-	border: "4px solid RebeccaPurple ",
-	borderRadius: "5%",
-};
+// const imgStyle = {
+// 	hight: "auto",
+// 	width: "80%",
+// 	border: "4px solid RebeccaPurple ",
+// 	borderRadius: "5%",
+// };
 const articleStyle = {
 	width: "50%",
 	margin: "0 auto",
