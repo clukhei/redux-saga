@@ -1,5 +1,5 @@
 import './App.css';
-import Button from '../containers/Button'
+import Bootton from '../containers/Button'
 import NewsItem from '../containers/NewsItem'
 import Loading from '../containers/Loading'
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Button />
+      <Bootton />
       <Loading />
       <NewsItem />
     </div>

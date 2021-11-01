@@ -4,8 +4,10 @@ import { Provider } from 'react-redux';
 import { configureAppStore } from './app/store';
 import App from './components/App';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
+import "sgds-govtech/css/sgds.css";
 
 const store = configureAppStore()
 
